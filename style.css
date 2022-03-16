@@ -14,6 +14,7 @@
 
 header {
     background-color:#1F2937;
+    padding: 10px 250px 0px 250px;
 }
 
 a {
@@ -23,4 +24,14 @@ a {
 
 li {
     list-style: none;
+}
+
+button {
+    background-color:#3882F6;
+    border-radius: 5px;
+    color:#E5E7EB;
+    padding: 6px 15px 6px 15px;
+    border:#3882F6;
+    font-weight: 900;
+    font-size:11px;
 }
