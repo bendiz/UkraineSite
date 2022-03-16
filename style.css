@@ -35,3 +35,21 @@ button {
     font-weight: 900;
     font-size:11px;
 }
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 400px;
+    flex: 0;
+}
+
+.imgone {
+    width: 500px;
+    height: auto;
+
+}
+
+.flexhero {
+    display: flex;
+}
