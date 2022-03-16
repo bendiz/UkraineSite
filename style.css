@@ -20,3 +20,7 @@ a {
     text-decoration: none;
     color:#E5E7EB;
 }
+
+li {
+    list-style: none;
+}
