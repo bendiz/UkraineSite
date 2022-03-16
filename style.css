@@ -4,3 +4,10 @@
     font-size: 48px;
     font-weight: 900;
 }
+
+.desc {
+    background-color:#1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px 0px 10px 0px;
+}
