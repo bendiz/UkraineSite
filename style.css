@@ -1,3 +1,11 @@
+body {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin: 0;
+    width: 1920px;
+}
+
 .herotitle {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -14,7 +22,6 @@
 
 header {
     background-color:#1F2937;
-    padding: 10px 250px 0px 250px;
 }
 
 a {
@@ -39,17 +46,27 @@ button {
 .heroleft {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items:flex-start;
     width: 400px;
-    flex: 0;
+    margin-right: -300px;
 }
 
 .imgone {
     width: 500px;
     height: auto;
+}
 
+.heroright {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .flexhero {
     display: flex;
+    flex-wrap: nowrap;
+    width: 1920px;
+    height: auto;
+    justify-content: space-evenly;
+
 }
