@@ -96,3 +96,9 @@ button {
 h1 {
     margin-bottom: 10px;
 }
+.info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 10px;
