@@ -124,3 +124,11 @@ h1 {
 .quotebox {
     background-color: #E5E7EB;
 }
+
+.quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
