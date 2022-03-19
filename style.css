@@ -115,3 +115,7 @@ h1 {
     gap: 50px;
     justify-content: center;
 }
+
+.subtext {
+    text-align: center;
+    font-size: 18px;
