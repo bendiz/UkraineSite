@@ -4,7 +4,6 @@ body {
     flex-direction: column;
     margin: 0;
     width: 1920px;
-    flex-shrink: 1;
 }
 
 .herotitle {
@@ -23,7 +22,6 @@ body {
 
 header {
     background-color:#1F2937;
-    flex-shrink: 1;
 }
 
 a {
@@ -74,7 +72,6 @@ button {
     justify-content: space-evenly;
     padding-bottom: 100px;
     padding-top: 100px;
-    flex-shrink: 1;
 }
 
 .nav {
@@ -85,7 +82,6 @@ button {
 .upperheader {
     display: flex;
     justify-content: space-around;
-    margin-right: -100px;
 }
 
 .logo {
