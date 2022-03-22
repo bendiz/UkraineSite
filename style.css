@@ -85,8 +85,6 @@ li {
 }
 
 .nav {
-    display: flex;
-    justify-content: flex-end;
 }
 
 .upperheader {
@@ -95,8 +93,6 @@ li {
 }
 
 .logo {
-    margin-left: -80px;
-    margin-right: -200px;
 }
 
 h1 {
