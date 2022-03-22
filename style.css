@@ -7,7 +7,6 @@ body {
     align-items: stretch;
     flex-direction: column;
     margin: 0;
-    width: 100%;
 }
 
 .wrapper {
@@ -31,7 +30,6 @@ body {
 
 header {
     background-color:#1F2937;
-    flex: 1;
 }
 
 a {
