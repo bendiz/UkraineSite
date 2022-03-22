@@ -12,6 +12,10 @@ body {
     margin: 0;
 }
 
+.upperheader {
+    display: flex;
+    justify-content: space-around;
+}
 
 .herotitle {
     background-color: #1F2937;
@@ -82,14 +86,6 @@ li {
     padding-top: 100px;
     flex-shrink: 1;
     width: 100%;
-}
-
-.nav {
-}
-
-.upperheader {
-    display: flex;
-    justify-content: space-around;
 }
 
 .logo {
