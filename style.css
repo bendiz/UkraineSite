@@ -7,14 +7,11 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    position: relative;
 }
 
 body {
     margin: 0;
-}
-
-.nav {
-    width: 700px;
 }
 
 
@@ -23,6 +20,52 @@ body {
     align-items: center;
     justify-content: center;
     gap: 50px;
+}
+
+header {
+    background-color:#1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight: 900;
+    width: 700px;
+}
+
+.logo:hover {
+    cursor:alias;
+}
+
+a {
+    text-decoration: none;
+    color:#E5E7EB;
+    display: inline-flex;
+}
+
+a:hover {
+    color: #FFD500;
+}
+
+
+.nav {
+    width: 700px;
+}
+
+.headlink {
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
 }
 
 h1 {
@@ -45,39 +88,6 @@ h1 {
     width: 700px;
 }
 
-header {
-    background-color:#1F2937;
-}
-
-.logo {
-    font-size: 24px;
-    color:#F9FAF8;
-    font-weight: 900;
-    width: 700px;
-}
-
-a {
-    text-decoration: none;
-    color:#E5E7EB;
-    font-size: 18px;
-}
-
-a:hover {
-    color: #FFD500;
-}
-
-ul {
-    padding: 0;
-    display: flex;
-    gap: 20px;
-    justify-content: flex-end;
-}
-
-li {
-    list-style: none;
-    
-}
-
 .signupone {
     background-color:#3882F6;
     border-radius: 5px;
@@ -91,6 +101,17 @@ li {
 .signupone:hover {
     background-color: #FFD500;
     color: #3882F6;
+}
+
+.flexhero {
+    display: flex;
+    flex-wrap: nowrap;
+    height: auto;
+    padding-bottom: 140px;
+    padding-top: 80px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
 }
 
 .heroleft {
@@ -110,23 +131,20 @@ li {
     flex-wrap: nowrap;
 }
 
-.flexhero {
-    display: flex;
-    flex-wrap: nowrap;
-    height: auto;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 50px;
-}
-
 .info {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     padding-top: 10px;
+    margin-top: 50px;
+}
+
+.boxsection {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 .boximg {
@@ -134,15 +152,10 @@ li {
     height: auto;
 }
 
-.boxsection {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-}
-
 .subtext {
     text-align: center;
     font-size: 18px;
+    width: 200px;
 }
 
 .quotebox {
@@ -176,8 +189,12 @@ li {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
     
 }
 
@@ -186,14 +203,40 @@ li {
     border: 1px solid white;
     background-color:#3882F6;
     color: white;
-    padding: 6px 15px 6px 15px;
+    padding: 20px 30px 20px 30px;
     font-weight: 900;
-    font-size:11px;
+    font-size:16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 160.719px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    cursor: pointer;
 
+}
+
+.signuptwo:hover {
+    background-color: #FFD500;
+    color:#3882F6;
 }
 
 .signcontainer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.action {
+    margin-bottom: -10px;
+}
+
+.footerbox {
+    background-color:#1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    margin-top: 100px;
 }
